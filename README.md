@@ -4,7 +4,6 @@
 
 - **Frontend:** React, JavaScript, Tailwind CSS
 - **State Management:** React Context API (for theme management)
-- 
 
 ## Components Implemented
 
