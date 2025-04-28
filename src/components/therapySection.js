@@ -78,68 +78,79 @@ function TherapySection(){
   </div>
 
   
-  <div className="w-1/2  ">
-    <div className="bg-white dark:bg-black rounded-lg shadow-md p-6 mr-2">
-    <div className="flex items-center">
-    
-    <img
-      src="/images/therapist2.jpeg" 
-      alt="Doctor"
-      className="w-16 h-16 rounded-full object-cover"
-    />
-    
-    
-    <div className="ml-4">
-      <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Dr. Sarah Johnson</h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">Anxiety and Depression</p>
-    </div>
-  </div>
-    </div>
-  </div>
-  <div className="w-1/2 ">
-    <div className="bg-white dark:bg-black rounded-lg shadow-md p-6 ml-2 mb-6">
-    <div className="flex items-center">
-    
-    <img
-      src="/images/therapist3.jpeg" 
-      alt="Doctor"
-      className="w-16 h-16 rounded-full object-cover"
-    />
-    
-    
-    <div className="ml-4">
-      <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Dr. Michael Chen</h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">Trauma & PTSD</p>
-    </div>
-  </div>
+  <div className="flex flex-wrap -mx-2">
+  
+  
+  <div className="w-1/2 p-2">
+    <div className="h-full bg-white dark:bg-black rounded-lg shadow-md p-4 sm:p-6 flex items-center">
+      <img
+        src="/images/therapist2.jpeg"
+        alt="Doctor"
+        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
+      />
+      <div className="ml-3 sm:ml-4">
+        <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-white">
+          Dr. Sarah Johnson
+        </h3>
+        <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+          Anxiety and Depression
+        </p>
+      </div>
     </div>
   </div>
 
   
-  <div className="w-1/2 ">
-    <div className="bg-white dark:bg-black rounded-lg shadow-md p-6 mr-2">
-    <div className="flex items-center">
-    
-    <img
-      src="/images/therapist1.jpeg" 
-      alt="Doctor"
-      className="w-16 h-16 rounded-full object-cover"
-    />
-    
-    
-    <div className="ml-4">
-      <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Dr. Amara Patel</h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">Relationship Issues</p>
+  <div className="w-1/2 p-2">
+    <div className="h-full bg-white dark:bg-black rounded-lg shadow-md p-4 sm:p-6 flex items-center">
+      <img
+        src="/images/therapist3.jpeg"
+        alt="Doctor"
+        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
+      />
+      <div className="ml-3 sm:ml-4">
+        <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-white">
+          Dr. Michael Chen
+        </h3>
+        <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+          Trauma & PTSD
+        </p>
+      </div>
     </div>
   </div>
+
+  
+  <div className="w-1/2 p-2">
+    <div className="h-full bg-white dark:bg-black rounded-lg shadow-md p-4 sm:p-6 flex items-center">
+      <img
+        src="/images/therapist1.jpeg"
+        alt="Doctor"
+        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
+      />
+      <div className="ml-3 sm:ml-4">
+        <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-white">
+          Dr. Amara Patel
+        </h3>
+        <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400">
+          Relationship Issues
+        </p>
+      </div>
     </div>
   </div>
-  <div className="w-1/2">
-  <div className="bg-gradient-to-tr from-pink-100 to-purple-200 dark:from-blue-900 dark:to-black rounded-lg shadow-md p-5 ml-2 flex flex-col">
-      <p className="text-center font-serif font-semibold text-4xl">+200</p>
-      <p className="text-center mt-2  text-base text-gray-500 dark:text-gray-400">Licensed therapists ready to help</p>
+
+  
+  <div className="w-1/2 p-2">
+    <div className="h-full bg-gradient-to-tr from-pink-100 to-purple-200 dark:from-blue-900 dark:to-black rounded-lg shadow-md p-4 sm:p-6 flex flex-col justify-center">
+      <p className="text-center font-serif font-semibold text-2xl sm:text-4xl">
+        +200
+      </p>
+      <p className="text-center mt-2 text-xs sm:text-base text-gray-500 dark:text-gray-400">
+        Licensed therapists ready to help
+      </p>
     </div>
   </div>
+</div>
+
+
 
 </div>
 

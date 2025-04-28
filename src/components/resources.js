@@ -4,10 +4,10 @@ import ArticleCard from "./articleCard";
 function Resources() {
     return (
         <div className="w-full bg-gradient-to-b from-green-50 to-white dark:from-blue-900 dark:to-black pb-16 border-b-white">
-      <div className="w-full max-w-[1440px] px-16 mx-auto ">
+      <div className="w-full max-w-[1440px] px-4 sm:px-8 md:px-16 mx-auto ">
         <div className="w-full flex flex-col rounded-lg  transition-colors duration-300">
           <p className="mt-20 mx-auto text-blue-500 border text-center rounded-3xl bg-purple-200 py-2 px-3">Knowledge Library</p>
-          <p className="mt-8 text-5xl font-semibold text-center font-serif">Expand Your Understanding</p>
+          <p className="mt-8 text-5xl  font-semibold text-center font-serif">Expand Your Understanding</p>
           <p className="mt-8 text-lg text-gray-600 dark:text-gray-300 text-center px-8 sm:px-16 md:px-32 lg:px-64 mx-auto">
   Explore our extensive collection of articles, blogs, audiobooks, and podcasts covering various mental health and wellness topics.
 </p>
