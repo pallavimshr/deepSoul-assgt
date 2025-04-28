@@ -1,4 +1,6 @@
 # Project Name: DeepSoul Assignment
+## 🚀 Live Demo
+👉 [Click here to view the live project](https://fabulous-moxie-43367a.netlify.app/)
 
 ## Tech Stack
 
