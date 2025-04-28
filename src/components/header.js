@@ -10,7 +10,7 @@ function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white dark:bg-gray-800 px-4 sm:px-8 md:px-12 lg:px-64 py-4 border-b border-gray-200 flex items-center justify-between transition-colors duration-300">
+    <header className="sticky top-0 z-50 bg-white dark:bg-black px-4 sm:px-8 md:px-12 lg:px-64 py-4 border-b border-gray-200 flex items-center justify-between transition-colors duration-300">
 
       
       
@@ -26,7 +26,7 @@ function Header() {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="hover:text-blue-300 text-gray-500 transition"
+              className="hover:text-blue-300 text-gray-500 dark:text-gray-300 transition"
             >
               {item}
             </a>
@@ -36,7 +36,7 @@ function Header() {
         
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="hidden md:block text-gray-900 dark:text-white px-2.5 py-2 border-2 rounded-2xl border-blue-500 dark:border-white transition-all duration-300"
+          className="hidden md:block text-gray-900 dark:text-white px-2.5 py-2 border-2 rounded-2xl border-blue-500 dark:border-white transition-all duration-300 hover:bg-gray-200 dark:hover:bg-inherit"
         >
           {darkMode ? (
             <Sun size={20} stroke="white" />

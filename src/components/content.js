@@ -1,10 +1,14 @@
 import Resources from "./resources";
+import SelfHelp from "./selfHelp";
+import HeroSection from "./heroSection";
+import TherapySection from "./therapySection";
 
 function Content() {
     return (
-      <div className=" space-y-4">
-        <p className="text-lg">Welcome to DeepSoul ✨</p>
-        <p>Scroll down to see the sticky header in action 👇</p>
+      <div >
+        <HeroSection/>
+        <TherapySection/>
+      <SelfHelp/>
         <Resources/>
         
       </div>
