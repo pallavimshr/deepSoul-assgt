@@ -1,6 +1,6 @@
 function ArticleCard({ title, tag, imageUrl }) {
   return (
-    <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+    <div className="w-full md:w-1/2 lg:w-1/3 p-4">
       <div className="relative bg-white dark:bg-black rounded-lg shadow-md overflow-hidden flex flex-col h-full transition-colors duration-300">
         
         <div className="relative h-52 -mt-8 overflow-hidden">

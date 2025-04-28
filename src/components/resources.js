@@ -38,7 +38,7 @@ function Resources() {
 />
           </div>
           <p className="mt-8 text-left text-2xl font-medium ml-6">Featured Articles</p>
-          <div className="flex flex-wrap  my-8 w-full">
+          <div className="flex flex-wrap my-8 w-full">
           <ArticleCard
   title="Understanding Anxiety: Causes and Management Techniques"
   tag="Mental Health"

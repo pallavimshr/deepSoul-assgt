@@ -80,12 +80,12 @@ function SelfHelp() {
   
              
               <div className=" flex-col flex items-center gap-8">
-                <div className="bg-gradient-to-r from-purple-200 to-pink-100 dark:from-blue-900 dark:to-black px-4 py-8 rounded-lg shadow-md flex-col flex  justify-center">
+                <div className="w-full bg-gradient-to-r from-purple-200 to-pink-100 dark:from-blue-900 dark:to-black px-4 py-8 rounded-lg shadow-md flex-col flex  justify-center">
                     <p className="text-left font-medium text-xl  pl-3">Personalized For You</p>
                     <p className="text-left text-base pt-4 pl-3 text-gray-500 dark:text-gray-300">Exercises tailored to your needs and goals based on your progress.</p>
                 </div>
                 
-                 <div className="bg-white dark:bg-black  rounded-lg shadow-md flex-col flex  justify-center p-4">
+                 <div className=" w-full bg-white dark:bg-black  rounded-lg shadow-md flex-col flex  justify-center p-4">
                  <p className="text-left font-medium text-xl  pl-3">Track Your Mood</p>
                  <p className="text-left text-base pt-4 pl-3 text-gray-500 dark:text-gray-300">Monitor your emotional wellbeing with our daily check-ins.</p>
                  <div className="flex justify-around items-center mt-8">
