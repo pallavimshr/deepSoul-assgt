@@ -13,15 +13,15 @@ function Footer() {
     Your journey to inner peace and mental wellbeing starts here.
   </p>
   <div className="flex space-x-4">
-    <a  aria-label="Facebook" className="text-gray-600 dark:text-white hover:text-blue-600">
+    <p  aria-label="Facebook" className="text-gray-600 dark:text-white hover:text-blue-600">
       <i className="fab fa-facebook-f"></i>
-    </a>
-    <a  aria-label="Twitter" className="text-gray-600 dark:text-white hover:text-blue-400">
+    </p>
+    <p  aria-label="Twitter" className="text-gray-600 dark:text-white hover:text-blue-400">
       <i className="fab fa-twitter"></i>
-    </a>
-    <a href="#" aria-label="Instagram" className="text-gray-600 dark:text-white hover:text-pink-500">
+    </p>
+    <p  aria-label="Instagram" className="text-gray-600 dark:text-white hover:text-pink-500">
       <i className="fab fa-instagram"></i>
-    </a>
+    </p>
   </div>
   </div>
   <div className="w-full md:w-1/4 h-auto mb-4 md:mb-0  rounded-lg flex flex-col p-4 ">
@@ -69,11 +69,11 @@ function Footer() {
 
   
   <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4 text-base text-gray-600 dark:text-gray-400">
-    <a href="#" className="hover:underline">Terms of Service</a>
+    <p className="hover:underline">Terms of Service</p>
     <span className="hidden md:block">|</span>
-    <a href="#" className="hover:underline">Privacy Policy</a>
+    <p className="hover:underline">Privacy Policy</p>
     <span className="hidden md:block">|</span>
-    <a href="#" className="hover:underline">Cookie Policy</a>
+    <p className="hover:underline">Cookie Policy</p>
   </div>
 </div>
 
